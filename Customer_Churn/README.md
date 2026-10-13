@@ -9,7 +9,7 @@
 3. เปิดและรัน `Customer_Churn.ipynb` จากบนลงล่าง
 4. ตรวจผลเทียบโมเดลและเลือกโมเดลจาก **validation set** ก่อนวัดผลชุดทดสอบ
 
-โน้ตบุ๊กตรวจ schema/คุณภาพข้อมูล, ทำ EDA อย่างน้อย 3 กราฟ, เตรียมข้อมูลด้วย scikit-learn Pipeline, เปรียบเทียบ Logistic Regression กับ Random Forest และรายงาน Accuracy, Precision, Recall, F1, Confusion Matrix รวมถึง ROC-AUC หลังเลือกโมเดลจาก validation แล้ว จะฝึกโมเดลนั้นซ้ำด้วย train และ validation ก่อนวัดผลบน test
+โน้ตบุ๊กตรวจ schema/คุณภาพข้อมูล, ทำ EDA อย่างน้อย 3 กราฟ, เตรียมข้อมูลด้วย scikit-learn Pipeline และเปรียบเทียบ Logistic Regression, Random Forest และ K-Nearest Neighbors (KNN) ด้วย Accuracy, Precision, Recall, F1, Confusion Matrix และ ROC-AUC โดยเลือกโมเดลจาก validation ก่อนฝึกซ้ำด้วย train และ validation แล้วประเมินบน test
 
 ## Deploy แบบที่ 1: Streamlit
 
